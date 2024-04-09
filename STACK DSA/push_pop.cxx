@@ -17,13 +17,14 @@ int main()
         case 1:
             if (top == max_size - 1)
             {
-                cout << "overflow & exit\n";
+                cout <<"overflow & exit\n";
             }
             else
             {
                 cout << "enter the item for insert:";
                 cin >> item;
-                stack[top++] = item;
+                top++;
+                stack[top] = item;
                 cout << "item inserted!"<< endl;
             }
             
@@ -35,7 +36,8 @@ int main()
             }
             else
             {
-                 item=stack[top--];
+                top--;
+                 item=stack[top];
                  cout << "item deleted!\n";
                  
             }
@@ -49,7 +51,7 @@ int main()
             else
             {
                 cout << "stack item:";
-                for (int i =0; i<top; i++)
+                for (int i=0; i<=top; i++)
                 {
                  cout<<stack[i]<<" ";
                 }
