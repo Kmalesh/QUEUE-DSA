@@ -5,18 +5,19 @@ int main()
     int i;
     // cout<<"enter the size of memory:";
     // cin>>n;
-    int arr[]={20,30,50,84,};
+    int arr[]={20,30,50,84,-1};
     int n=sizeof(arr)/sizeof(int);
 
-    int max=arr[0];
+    // int min=arr[n];
+    int min=
     for(i=0;i<n;i++)
     {
-         if(arr[i]>max)
+         if(arr[i]<min)
         {
-            max=arr[i];
+            min=arr[i];
         }
     }
-    cout<<"maximum value is:"<<max;
+    cout<<"minimum value is:"<<min;
 
     
        
