@@ -55,7 +55,7 @@ public:
 
         for (int i = front; i <= rear; i++)
         {
-            cout << queue[i];
+            cout << queue[i]<<" ";
         }
         cout << endl;
     }
