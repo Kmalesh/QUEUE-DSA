@@ -1,45 +1,54 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
 #define limitation 4
 int atm[limitation];
 int space_1 = -1, space_2 = -1;
 int main()
 {
-    int money, choice,sum=0;;
+    int money, choice, sum = 0, pin;
+
     while (1)
     {
+
         cout << "[1].Chake balance\n[2].Add Balance\n[3].Withrawl\n[4]. exit\n";
         cout << "_________________________________\n";
         cout << "enter your choice:";
         cin >> choice;
+        cout << "enter PIN:";
+        cin >> pin;
+        int b = 1323407;
+
         switch (choice)
         {
         case 1:
-        if(space_1==-1)
-        {
-            cout<<"RS.0\n";
-            cout<<"________________\n";
-        }
-        else{
-             cout << "Total Amount: ";
-             
-            
-        for (int i = space_1; i <= space_2; i++)
-        {
-            
-            sum=sum+atm[i];
-        }
-        cout<<sum;
-        cout << endl;
-        }
-           
-        break;
+            if (space_1 == -1)
+            {
+                cout << "RS.0\n";
+                cout << "________________\n";
+            }
+            else
+            {
+
+                cout << "Total Amount: ";
+
+                for (int i = space_1; i <= space_2; i++)
+                {
+
+                    sum = sum + atm[i];
+                }
+                cout << sum;
+
+                cout << endl;
+            }
+
+            break;
 
         case 2:
             if (space_2 == limitation - 1)
             {
-                cout <<"Limit end!. Because limite is 4 Times..\n";
-                cout<<"________________________________________\n";
+                cout << "Limit end!. Because limite is 4 Times..\n";
+                cout << "________________________________________\n";
             }
             else
             {
@@ -66,14 +75,15 @@ int main()
             }
             else
             {
-                money = atm[space_1];
+                money =  atm[space_1];
                 if (space_1 == space_2)
                 {
                     space_1 = space_2 = -1;
                 }
                 else
                 {
-                    space_1++;
+                int v= sum-space_1;
+                cout<<v;
                 }
                 cout << "Successful! Withrawl..\n";
                 cout << "__________________________\n";

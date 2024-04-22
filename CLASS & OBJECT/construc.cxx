@@ -1,23 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class name
 {
-  public:
-    name()
+public:
+   name()
    {
-    string name="kamalesh kumar";
-    cout<<name<<endl;
-   int rollno={1323407};
-   cout<<rollno<<endl;
+      string name = "kamalesh kumar";
+      cout << name << endl;
+      int rollno = {1323407};
+      cout << rollno << endl;
    }
-   ~ name()
+   ~name()
    {
-      cout<<"object distroyed!";
+      cout << "object distroyed!";
    }
-
 };
 int main()
 {
-    name x;
-    return 0;
+   name x;
+   return 0;
 }

@@ -2,32 +2,32 @@
 using namespace std;
 int main()
 {
-    int size,i,search;
-    cout<<"enter the size of memory:";
-    cin>>size;
-    int arr[size];
-    cout<<"enter element of array";
-    for(i=0;i<size;i++)
+    int n,i;
+    cout<<"enter the  size of array:";
+    cin>>n;
+    int arr[n];
+    cout<<"enter array element:";
+    for( i=0;i<n;i++)
     {
         cin>>arr[i];
     }
+    int search;
     cout<<"enter the search element:";
     cin>>search;
-        for(i=0;i<size;i++)
+    for( i=0;i<n;i++)
     {
-        if(arr[i] == search)
+        if(arr[i]==search)
         {
-            cout<<"searching successful!"<<endl;
-             break;
+            cout<<"searching successfull!"<<endl;
+            break;
         }
-      
     }
-  if(i<size)
+    if(arr[i]>n)
     {
-        cout<<"the element index of "<<i;
+        cout<<"the element of index no:"<<i<<endl;
     }
-     else{
-        cout<<"not found";
-        }
-    
+    else{
+        cout<<"element not found!"<<endl;
+    }
 }
+

@@ -65,7 +65,7 @@ int main()
                 }
                 else
                 {
-                 rear--;
+                 front++;
                 }
                 cout << "item deleted!!\n";
             }

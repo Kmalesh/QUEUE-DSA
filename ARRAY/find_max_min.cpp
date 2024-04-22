@@ -13,14 +13,14 @@ int main()
             max = arr[i];
         }
     }
-    cout<<"the max number:"<<max<<endl; 
-    min=arr[0];
-    for(i=0;i<n;i++)
+    cout << "the max number:" << max << endl;
+    min = arr[0];
+    for (i = 0; i < n; i++)
     {
-        if(arr[i]<min)
+        if (arr[i] < min)
         {
-            min=arr[i];
+            min = arr[i];
         }
     }
-    cout<<"the minimum number:"<<min;
+    cout << "the minimum number:" << min;
 }
