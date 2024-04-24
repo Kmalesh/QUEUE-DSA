@@ -19,11 +19,12 @@ int main()
         if(arr[i]==search)
         {
             cout<<"searching successfull!"<<endl;
-            break;
+            
         }
+       
     }
-    if(arr[i]>n)
-    {
+     if(arr[i]>n)
+     {
         cout<<"the element of index no:"<<i<<endl;
     }
     else{
