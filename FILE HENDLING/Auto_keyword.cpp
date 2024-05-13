@@ -1,5 +1,4 @@
 #include<iostream>
-#include<stdio.h>
 using namespace std;
 class A
 {
@@ -10,10 +9,8 @@ class A
       cout<<b<<endl;
       
     }
-
-    void sum(auto c)
+     void sum(auto c)
     {
-        // auto name="kamalesh kumar";
         cout<<c<<endl;
     }
 };
@@ -22,6 +19,8 @@ int main()
   system("cls");
     A obj;
     obj.sum(10);
+    
     obj.sum(10.7);
+  
      obj.sum("kamalesh");
 }

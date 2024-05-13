@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-    int arr[6] = {20, 21, 55, 65, 77,11};
+    int arr[6] = {20, 21, 55, 65, 77,88};//binary search me element assending order me rahta hai
     int item, lr = 0, up = 5, mid, f = 0;
      cout << "enter the search elelment:";
     cin >> item;

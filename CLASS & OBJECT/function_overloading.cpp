@@ -11,7 +11,7 @@ void student()
 } 
 int main()
 { 
-    student();
+   student();
    cout<<student(10,20);
 return 0;
 }

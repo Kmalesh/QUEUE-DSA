@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+     system("cls");
     int i = 10;
     try
     {
@@ -16,5 +17,6 @@ int main()
     {
         cout<<"i="<<i;
     }
+     
   return 0;  
 }

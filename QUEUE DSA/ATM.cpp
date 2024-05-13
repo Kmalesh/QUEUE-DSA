@@ -31,6 +31,7 @@ int main()
             {
 
                 cout << "Total Amount: ";
+                cout<<"_________________________\n";
 
                 for (int i = space_1; i <= space_2; i++)
                 {
