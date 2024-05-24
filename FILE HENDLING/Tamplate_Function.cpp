@@ -8,10 +8,9 @@ T sum(T a,T b){
 }
 int main()
 {
-     system("cls");
+   system("cls");
    cout<< sum(10,20)<<endl;
    cout<<sum(10.5,2.8)<<endl;
   
-    
     return 0;
 }

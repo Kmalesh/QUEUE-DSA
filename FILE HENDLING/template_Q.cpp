@@ -8,7 +8,6 @@ T show(T a ,T b)
 int main()
 {
     show(10,5);
-
     show(10.2,2.3);
 
     return 0;
