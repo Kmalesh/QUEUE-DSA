@@ -1,28 +1,27 @@
 #include<iostream>
 #include<stdio.h>
 using namespace std;
-class demo
+class incometax
 {
    int a,b;
    public:
    void getdata();
-   friend int sum(demo) ; //not member of class
+   friend int sum(incometax) ; //not member of class
 
 };
-void demo::getdata()
+void incometax::getdata()
 {
     cout<<"Enter the wto number:";
     cin>>a>>b;
     
 }
-int sum (demo obj)
+int sum (incometax obj)
 {
     return( obj.a+obj.b);
 }
 int main()
 {
-    system("cls");
-   demo obj;
+   incometax obj;
    obj.getdata();
    cout<<"addition:"<<sum(obj);
 }
