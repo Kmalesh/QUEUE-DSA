@@ -9,7 +9,6 @@ int main()
     {
         arr[i]=arr[i+1];
     }
-   
     for(i=0;i<4;i++)
     {
         cout<<arr[i]<<" "<<endl;

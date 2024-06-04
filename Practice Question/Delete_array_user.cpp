@@ -2,24 +2,24 @@
 using namespace std;
 int main()
 {
-    int n, pos;
-    cout << "enter the size of nummbr:";
+    int n, i, pos;
+    cout << "Enter the size of Memory:";
     cin >> n;
     int arr[n];
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
 
-    cout << "Enter the position of delete array:";
+    cout << "Enter the Delete position :";
     cin >> pos;
-    for (int i = pos; i < n; i++)
+
+    for (i = pos; i < n; i++)
     {
         arr[i] = arr[i + 1];
     }
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < n - 1; i++)//if -1 nahi rahega to garbage value print hoga
     {
-        cout << arr[i] << " " << endl;
+        cout << arr[i] << "\n";
     }
-    return 0;
 }
