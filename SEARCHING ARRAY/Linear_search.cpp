@@ -1,27 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
     int i;
-    int search,f=0;
-    int a[]={21,52,8,1,90};
-    cout<<"enter the search element:";
-    cin>>search;
-    for(int i=0;i<5;i++)
+    
+    int arr[] = {21, 52, 8, 1};
+    int n=sizeof(arr)/sizeof(int);
+    int search, f = 0;
+    cout << "enter the search element:";
+    cin >> search;
+    for (int i = 0;i<n;i++)
     {
-        if(a[i]==search)
+        if (arr[i]==search)
         {
-            f=1;
+            f==1;
             break;
         }
     }
     if(f==1)
     {
-        cout<<"search found!"<<endl<<arr[mid];
+        cout<<"Searching successful!";
+    }
+    else 
+    cout<<"Not element find";
     
-    }
-    else
-        cout<<"not found!"<<endl;
-    }
-
 }

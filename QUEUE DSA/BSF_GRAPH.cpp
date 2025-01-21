@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+#include<iostream>
+using namespace std;
+
 
 #define MAX 5
 
@@ -133,7 +133,7 @@ int main()
     addEdge(2, 4); // B - D
     addEdge(3, 4); // C - D
 
-    printf("\nBreadth First Search: ");
+    cout<<"\nBreadth First Search: ";
     breadthFirstSearch();
 
     return 0;

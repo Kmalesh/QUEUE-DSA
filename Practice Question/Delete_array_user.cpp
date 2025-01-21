@@ -14,9 +14,9 @@ int main()
     cout << "Enter the Delete position :";
     cin >> pos;
 
-    for (i = pos; i < n; i++)
+    for (i=pos;i<n;i++)
     {
-        arr[i] = arr[i + 1];
+        arr[i]=arr[i + 1];
     }
     for (i = 0; i < n - 1; i++)//if -1 nahi rahega to garbage value print hoga
     {

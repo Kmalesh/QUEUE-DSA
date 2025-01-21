@@ -11,8 +11,8 @@ int main()
     //   cin>>a;
     //   cout<<"enter the number:";
     //   cin>>b;
-    int multiple=mul(10,20);
-    cout<<multiple;
+   cout<<mul(10,20);
+    
 
     
 

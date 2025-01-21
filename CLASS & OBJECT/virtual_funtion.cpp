@@ -8,7 +8,7 @@ class A
         cout << "base class show\n";
     }
 };
-class B : public A
+class B:public A 
 {
     void show()
     {
@@ -19,7 +19,7 @@ int main()
 {
     A *p;  //base 
     B obj; //jis class ka object hoga ,object usi ko call karega
-    p = &obj;
+    p= &obj;
     p->show();
 
     return 0;

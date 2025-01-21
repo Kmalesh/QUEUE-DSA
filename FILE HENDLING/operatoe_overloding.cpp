@@ -1,32 +1,30 @@
-#include <iostream>
-// // #include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
+class A
+{
+    public:
+    int a;
+    int b;
+    void show(int x,int y)
+    {
+        a=x;
+        b=y;
+    }
+    void display()
+    {
+        cout<<a<<" "<<b;
+    }
+    void operator -()
+    {
+       a=-a;
+       b=-b;
+    }
 
-// class A
-// {
-//   int a, b, c;
-// public:
-//   void vv(int a)
-//   {
-//    this-> a = a;
-//   }
-//   void display()
-//   {
-//     cout << a << endl;
-//   }                              //not complete
-//   void operator -()
-//   {
-//     a = -a;
-//   }
-// };
+};
 int main()
 {
-//  A obj;
-//  obj.vv(10);
-//  -obj;
-//  obj.display();
-int a=10;
-
-
-
+    A ob;
+    ob.show(10,20);
+    -ob;
+    ob.display();
 }

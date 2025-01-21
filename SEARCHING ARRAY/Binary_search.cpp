@@ -10,9 +10,7 @@ int main()
     cin >> search;
     while (lr<=up)
     {
-       
         mid = (lr + up) / 2;
-
         if (arr[mid] == search)
         {
             f = 1;

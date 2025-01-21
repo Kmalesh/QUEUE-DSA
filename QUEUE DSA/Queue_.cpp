@@ -10,8 +10,6 @@ int main()
     cout << "please Enter your choice:";
     cin >> choice;
     int item;
-    
-    
         switch (choice)
         {
         case 1:

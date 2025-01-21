@@ -16,7 +16,6 @@ public:
 class patients : public Hospital
 {
     
-
     string p_name;
     int p_id;
 };
@@ -42,7 +41,7 @@ void hospitaldata(vector<Hospital> &hospitals)
     cout << endl;
     cout << endl;
 }
-void patientsdata(vector<patient>&patient,vector<hospitaldata>&hospital) 
+void patientsdata(vector <patient> &patient,vector<hospitaldata>&hospital) 
 {
     cout << "print patient data" << endl;
 

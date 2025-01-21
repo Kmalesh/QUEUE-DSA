@@ -17,12 +17,10 @@ class cons
     {
         cout<<"destroyed object";
     }
-
 };
 int main()
 {
     cons o; // declare object for calling 
     cons ob(20,30);//value pass
-
     return 0;
 }

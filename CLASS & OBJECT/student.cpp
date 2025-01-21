@@ -15,6 +15,7 @@ int main(){
     cout<<"roll no : "<<shahid.roll_no<<endl;
     shahid.marks  = 85.5;
     cout<<"marks : "<<shahid.marks<<endl;
+    
     cout<<"************************"<<endl;
     kamlesh.name = "kamlesh";
     cout<<"name : "<<kamlesh.name<<endl;

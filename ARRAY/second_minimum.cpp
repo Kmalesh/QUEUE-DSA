@@ -15,7 +15,7 @@ int main()
    }
 
   }
-  cout<<"minimum number:"<<min<<endl;
+  cout<<"first minimum number:"<<min<<endl;
   arr[index]=98745632;
   int min2=arr[0];
   for(int i=0;i<n;i++)
@@ -27,5 +27,5 @@ int main()
    }
 
   }
-  cout<<"minimum number:"<<min2<<endl;
+  cout<<"second minimum number:"<<min2<<endl;
 }

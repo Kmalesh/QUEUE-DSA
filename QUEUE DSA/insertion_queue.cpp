@@ -8,7 +8,7 @@ int main()
 {
   
     int item, choice;
-    cout << "[1].Inqueue\n[2].display\n[3].exit\n[4].Dqueue\n";
+    cout << "[1].Insertion\n[2].display\n[3].exit\n[4].Deletion \n";
     while (1)
     {
         cout << "enter your choice :";

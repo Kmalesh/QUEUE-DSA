@@ -2,26 +2,26 @@
 using namespace std;
 int main()
 {
-    int i,j;
-
-    int a[]={33,4,5,65,6,1,66,14,-1};
-    int n=sizeof(a)/sizeof(int);
-     
-    for(i=0;i<n-1;i++)
+    int arr[]={12,32,2,4,34,20,5};
+    int n=sizeof(arr)/sizeof(int);
+   
+    for(int i=0;i<n-1;i++)
     {
-        for(j=0;j<n-1;j++)
+        for(int j=0;j<n-1;j++)
         {
-            if(a[j]>a[j+1])
+            if(arr[j]>arr[j+1])
             {
-                int temp=a[j];
-                a[j]=a[j+1];
-                a[j+1]=temp;
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
             }
         }
     }
-    for(i=0;i<n;i++)
-    {
-        cout<<a[i]<<" ";
-    }
+  cout<<"sequnce Array:";
+     for(int i=0;i<n-1;i++)
+     {
+        cout<<arr[i]<<" ";
+     }
 
+return 0;
 }

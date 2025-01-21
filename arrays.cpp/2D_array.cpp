@@ -10,6 +10,7 @@ int main()
         c[i][j]=a[i][j]+b[i][j];
 
     }
+
     cout<<endl;
     }
     cout<<"two matrix is:"<<endl;
@@ -21,5 +22,7 @@ int main()
         }
         cout<<endl;
     }
+
+   
 
 }

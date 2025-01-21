@@ -3,8 +3,8 @@ using namespace std;
 class A
 {
     public:
-    virtual void hhh()=0;
-    void  sum()
+    virtual void sum()=0;
+    void  sum1()
     {
       cout <<"hello ";
     }
@@ -12,7 +12,7 @@ class A
 class B:public A
 {
     public:
-  void sum()        //not complete
+  void sum2()        //not complete
     {
          cout<<"hhh";
     }
@@ -20,8 +20,11 @@ class B:public A
 int main()
 {
     
-   
-    
-    
+   A *p,m;
+   p=&m;
+   B b;
+  p->sum1();
+  p=&b;
+  p->sum();
     
 }

@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    char name[]="kamalesh kumar";  // using strcpy =copy of name into name_2
+    char name[]="KAMALESH KUMAR";  // using strcpy =copy of name into name_2
     char name_2[18];
     strcpy(name_2,name);
     cout<<"copy name:"<<name_2<<endl;
@@ -16,12 +16,8 @@ int main()
    cout<<"*************************"<<endl;
 
    cout<<"reverse name: "<<strrev(name_2)<<endl;//reverse name print using strrev function;
-
-   
-
-
-
-
+cout<<"*****************************"<<endl;
+ cout<<"name:"<<strlwr(name);  
 
 }  
     

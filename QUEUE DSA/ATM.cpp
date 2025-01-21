@@ -10,7 +10,6 @@ int main()
 
     while (1)
     {
-
         cout << "[1].Chake balance\n[2].Add Balance\n[3].Withrawl\n[4]. exit\n";
         cout << "_________________________________\n";
         cout << "enter your choice:";
@@ -18,7 +17,6 @@ int main()
         cout << "enter PIN:";
         cin >> pin;
         int b = 1323407;
-
         switch (choice)
         {
         case 1:

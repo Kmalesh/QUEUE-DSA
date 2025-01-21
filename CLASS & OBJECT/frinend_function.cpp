@@ -10,7 +10,7 @@ class house
 };
 int brother(house s)
 {
-    int c=s.a+s.b;
+    int c=s.a;
     return c;
 }
 int main(){

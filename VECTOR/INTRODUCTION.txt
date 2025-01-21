@@ -1,0 +1,22 @@
+
+Q.What is Vector ?
+
+ANS:-  
+A vector is a sequence container class that implements dynamic array, 
+means size automatically changes when appending elements.
+A vector stores the elements in contiguous memory locations and 
+allocates the memory as needed at run time.
+
+#...   Difference between vector and array  ....#
+
+-----> An array follows static approach, means its size cannot be
+ changed during run time while vector implements dynamic array means
+  it automatically resizes itself when appending elements. <-----
+
+# Syntax #
+
+Consider a vector 'v1'. Syntax would be:
+
+|----------------------- |
+|vector<object_type> v1; | 
+|------------------------|

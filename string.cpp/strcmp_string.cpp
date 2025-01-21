@@ -8,10 +8,10 @@ int main()
   int value= strcmp(name,name2);
   if(value==0)
   {
-    cout<<"matches";
+    cout<<"found";
   }
   else{
-    cout<<"not matches";
+    cout<<"not found!";
   }
    
 }

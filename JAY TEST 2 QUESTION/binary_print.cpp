@@ -12,7 +12,6 @@ int main()
             if((i+j)%2==0)
             {
                 cout<<"1";
-
             }
             else{
                 cout<<"0";

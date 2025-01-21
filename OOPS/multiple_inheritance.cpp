@@ -17,19 +17,19 @@ class B
         cout<<"Hare.. Krishna....\n";
     }
 };
-class C:public A,public B
+class C:public A,public B     
 {
-    public:
+    public:                    
     void disp2()
     {
-        cout<<"Vashudewa\n";
+        cout<<"Vashudewa\n";   // function Overriding 
     }
 };
 int main()
 {
-  C om;
-  om.disp1();
-  om.disp();
-  om.disp2();
+  C cout;
+  cout.disp1();
+  cout.disp();
+  cout.disp2();
   
 }

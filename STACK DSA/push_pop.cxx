@@ -5,7 +5,6 @@ int stack[max_size];
 int top = -1;
 int main()
 {
-
     cout << "[1].PUSH\n[2].POP\n[3].DISPLAY\n[4].exit\n";
     int item, choice;
     while (1)
@@ -27,7 +26,6 @@ int main()
                 stack[top] = item;
                 cout << "item inserted!"<< endl;
             }
-            
             break;
         case 2:
             if (top == -1)
@@ -65,5 +63,5 @@ int main()
             cout << "invalid choice!\n";
         }
     }
-    
+ return 0;   
 }

@@ -15,7 +15,6 @@ int main()
  {
       cin>>a[i];
  }
-  
  for(i = 0; i < Size; i ++)
  {
    if(a[i] % 2 == 0)

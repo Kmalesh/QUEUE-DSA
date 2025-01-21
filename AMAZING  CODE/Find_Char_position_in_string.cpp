@@ -4,5 +4,5 @@ using namespace std;
 int main()
 {
     string name="kamalesh";
-    cout<<name.find(2);
+    cout<<name.find("e");
 }
